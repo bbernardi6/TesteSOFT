@@ -1,4 +1,6 @@
 #!/bin/bash
+#Script que inicia a aplicação
+
 nohup node CalculoCirculoF.js &
 nohup node CalculoRetangulo.js &
 nohup node CalculoTriangulo.js & 
