@@ -1,0 +1,127 @@
+{
+  "id": "c1ecb228-b7d0-49cd-8260-03d3ffee5c4b",
+  "version": "1.1",
+  "name": "c",
+  "url": "http://127.0.0.1:1330",
+  "tests": [{
+    "id": "caa8dabc-85dd-4f44-91ef-496068783c9b",
+    "name": "Untitled",
+    "commands": [{
+      "id": "e5fab3dc-8fc5-4f28-9767-60a44abe31f7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "806795a1-4c0a-4daf-a6d4-16b8136b2196",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x669",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78a54108-887b-448f-af02-1c854533609a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Retangle calculation",
+      "targets": [
+        ["id=Retangle calculation", "id"],
+        ["linkText=Retangle calculation", "linkText"],
+        ["css=#Retangle\\ calculation", "css:finder"],
+        ["xpath=//a[contains(text(),'Retangle calculation')]", "xpath:link"],
+        ["xpath=//a[@id='Retangle calculation']", "xpath:attributes"],
+        ["xpath=//a[@href='http://127.0.0.1:1310/']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "538a2ebe-c06c-4277-a620-9fbe11689991",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e259253e-6453-4a2b-8b95-f2c72cb6f092",
+      "comment": "",
+      "command": "click",
+      "target": "id=base",
+      "targets": [
+        ["id=base", "id"],
+        ["name=base", "name"],
+        ["css=#base", "css"],
+        ["css=#base", "css:finder"],
+        ["xpath=//input[@id='base']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720c5b48-f123-4345-966e-0a72ffa04715",
+      "comment": "",
+      "command": "type",
+      "target": "id=base",
+      "targets": [
+        ["id=base", "id"],
+        ["name=base", "name"],
+        ["css=#base", "css"],
+        ["css=#base", "css:finder"],
+        ["xpath=//input[@id='base']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "578.12"
+    }, {
+      "id": "4b2571b7-c9c6-4cac-80b0-cdd47c0b8620",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["name=altura", "name"],
+        ["css=#altura", "css"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36cab676-260d-4aff-8b05-ea62abb94262",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["name=altura", "name"],
+        ["css=#altura", "css"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "0.76"
+    }, {
+      "id": "33e66f7d-f02a-49b3-a2ba-92a608ac3816",
+      "comment": "",
+      "command": "close",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "093f5e00-d8ce-4840-ac5d-717c065bd93e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_local",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7f002387-c3d9-44c2-89b9-7be3eec369db",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["caa8dabc-85dd-4f44-91ef-496068783c9b"]
+  }],
+  "urls": ["http://127.0.0.1:1330/"],
+  "plugins": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "7fa34c29-d029-4739-b399-bdb577e9396c",
+  "version": "1.1",
+  "name": "z",
+  "url": "http://127.0.0.1:1330",
+  "tests": [{
+    "id": "3b661e50-7a4d-439e-a4ef-fb284dab552b",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a3dc34ed-5304-486a-a058-1afb70841062",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "765bacdb-9439-436a-8f9d-bbad2f286d96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x669",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f2b6469-0fd5-4478-8f67-bf56679054c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Menu  of history of the Geometric applications ",
+      "targets": [
+        ["id=Menu  of history of the Geometric applications ", "id"],
+        ["xpath=//a[contains(text(),'Menu of  history of the Geometric applications')]", "xpath:link"],
+        ["xpath=//a[@id='Menu  of history of the Geometric applications ']", "xpath:attributes"],
+        ["xpath=//a[@href='http://127.0.0.1:1333/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "07ce68c9-ca52-4f5f-affc-cae6b4f13584",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3b661e50-7a4d-439e-a4ef-fb284dab552b"]
+  }],
+  "urls": ["http://127.0.0.1:1330/"],
+  "plugins": []
+}

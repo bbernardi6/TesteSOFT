@@ -1,0 +1,113 @@
+{
+  "id": "e47c53c4-024f-4c30-b6f9-2392ee9647a8",
+  "version": "1.1",
+  "name": "xx",
+  "url": "http://127.0.0.1:1330",
+  "tests": [{
+    "id": "e460c0e0-f316-4a28-bbb2-8a5d0b74d4d5",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a04d4469-9dd1-4807-9ff9-7d0080a7c25d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f5a9617-0134-4044-a483-a27e5648a20d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x669",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de398ecf-e745-40a8-b612-8fe8e90ba631",
+      "comment": "",
+      "command": "click",
+      "target": "id=Triangle calculation",
+      "targets": [
+        ["id=Triangle calculation", "id"],
+        ["linkText=Triangle calculation", "linkText"],
+        ["css=#Triangle\\ calculation", "css:finder"],
+        ["xpath=//a[contains(text(),'Triangle calculation')]", "xpath:link"],
+        ["xpath=//a[@id='Triangle calculation']", "xpath:attributes"],
+        ["xpath=//a[@href='http://127.0.0.1:1320/']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a20f5bb-4a89-4398-b938-1708be495d82",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "032f66a0-0c18-4bca-900d-c9d2e8a68127",
+      "comment": "",
+      "command": "click",
+      "target": "id=base",
+      "targets": [
+        ["id=base", "id"],
+        ["name=base", "name"],
+        ["css=#base", "css"],
+        ["css=#base", "css:finder"],
+        ["xpath=//input[@id='base']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea0608c-f7b4-40d5-909d-f9e3be337c83",
+      "comment": "",
+      "command": "type",
+      "target": "id=base",
+      "targets": [
+        ["id=base", "id"],
+        ["name=base", "name"],
+        ["css=#base", "css"],
+        ["css=#base", "css:finder"],
+        ["xpath=//input[@id='base']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "122.56"
+    }, {
+      "id": "0e12bef5-4e02-450c-a205-896368a3b7ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["name=altura", "name"],
+        ["css=#altura", "css"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "318307e8-ad09-4e98-8d7f-273de28a686b",
+      "comment": "",
+      "command": "close",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b197178-151e-4d24-9794-fabe68b9938f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_local",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c43e04a9-12a4-4aaa-99a8-71ce59a0f80c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e460c0e0-f316-4a28-bbb2-8a5d0b74d4d5"]
+  }],
+  "urls": ["http://127.0.0.1:1330/"],
+  "plugins": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "a49edb9a-e90b-49da-8746-50d6135a2a36",
+  "version": "1.1",
+  "name": "TEsteSOFT2",
+  "url": "http://127.0.0.1:1330",
+  "tests": [{
+    "id": "646bc50e-235e-4f84-a9b0-86a9d4850662",
+    "name": "Untitled",
+    "commands": [{
+      "id": "02b501dc-3981-4a78-8aee-4ae9a38631f7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbe8de3f-ee6b-464c-88d6-fda7a74c69bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x669",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8ddedbb-8dcf-4fdd-8503-4a7ae1033e8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Circle calculation",
+      "targets": [
+        ["id=Circle calculation", "id"],
+        ["linkText=Circle calculation", "linkText"],
+        ["css=#Circle\\ calculation", "css:finder"],
+        ["xpath=//a[contains(text(),'Circle calculation')]", "xpath:link"],
+        ["xpath=//a[@id='Circle calculation']", "xpath:attributes"],
+        ["xpath=//a[@href='http://127.0.0.1:1340/']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1660f89d-86da-4af5-834c-8d860bd45d53",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9d0adfd-0356-4980-b7e0-5430eb5c49db",
+      "comment": "",
+      "command": "click",
+      "target": "id=rain",
+      "targets": [
+        ["id=rain", "id"],
+        ["name=rain", "name"],
+        ["css=#rain", "css"],
+        ["css=#rain", "css:finder"],
+        ["xpath=//input[@id='rain']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55bb9452-456e-4405-b7a5-e08ac8b83cbb",
+      "comment": "",
+      "command": "type",
+      "target": "id=rain",
+      "targets": [
+        ["id=rain", "id"],
+        ["name=rain", "name"],
+        ["css=#rain", "css"],
+        ["css=#rain", "css:finder"],
+        ["xpath=//input[@id='rain']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "617e1152-658a-41d4-92c9-69b3800e74da",
+      "comment": "",
+      "command": "close",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2e0723a-8589-4dd8-bebe-5fe4157028cf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_local",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cd8334a6-fc7a-4e26-83d8-0a1cd5a877bb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["646bc50e-235e-4f84-a9b0-86a9d4850662"]
+  }],
+  "urls": ["http://127.0.0.1:1330/"],
+  "plugins": []
+}

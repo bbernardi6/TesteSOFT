@@ -1,0 +1,195 @@
+{
+  "id": "e5bad65f-9d5a-45c8-81c5-d60032c295ff",
+  "version": "1.1",
+  "name": "TestesSOFT",
+  "url": "http://127.0.0.1:1300",
+  "tests": [{
+    "id": "5b1c5382-4dda-4116-b0db-6df5fdf77939",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d06d4a6c-0cfd-4a31-93b1-9d8fe43ca24f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbcbb9d0-a8d5-4631-9328-333d307c2023",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x669",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50f1841f-f01f-4ef6-ad2a-5973c52e6a73",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css"],
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "394d5c52-c82e-42ea-84d2-17f1765985ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=CREATE USER",
+      "targets": [
+        ["id=CREATE USER", "id"],
+        ["linkText=CREATE USER", "linkText"],
+        ["css=#CREATE\\ USER", "css:finder"],
+        ["xpath=//a[contains(text(),'CREATE USER')]", "xpath:link"],
+        ["xpath=//a[@id='CREATE USER']", "xpath:attributes"],
+        ["xpath=//a[@href='http://127.0.0.1:1350/']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "774f7114-f9ee-41a2-a844-c37978866e1b",
+      "comment": "",
+      "command": "click",
+      "target": "name=User",
+      "targets": [
+        ["name=User", "name"],
+        ["css=input[name=\"User\"]", "css"],
+        ["css=div:nth-child(3) > p > input", "css:finder"],
+        ["xpath=//input[@name='User']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12101e47-30f1-4545-913a-9b76e578df8e",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=input[name=\"Password\"]", "css"],
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div/div/div/p/input", "xpath:position"]
+      ],
+      "value": "bruno1*"
+    }, {
+      "id": "9d63152a-898b-4b75-9d5e-92ebdb2f4b0f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Cadastrar Usuario",
+      "targets": [
+        ["name=Cadastrar Usuario", "name"],
+        ["css=input[name=\"Cadastrar Usuario\"]", "css"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='Cadastrar Usuario']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c97ee48-9d80-46da-9e3b-7dce290e0ed3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back to Menu",
+      "targets": [
+        ["linkText=Back to Menu", "linkText"],
+        ["css=a", "css"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to Menu')]", "xpath:link"],
+        ["xpath=//a[@href='http://127.0.0.1:1300/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d640a84-8bc2-42fb-b87d-105f2411627d",
+      "comment": "",
+      "command": "click",
+      "target": "name=User",
+      "targets": [
+        ["name=User", "name"],
+        ["css=input[name=\"User\"]", "css"],
+        ["css=div:nth-child(1) > p > input", "css:finder"],
+        ["xpath=//input[@name='User']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85721f59-65b2-4bbb-aeae-73f4e1a48f3a",
+      "comment": "",
+      "command": "click",
+      "target": "name=User",
+      "targets": [
+        ["name=User", "name"],
+        ["css=input[name=\"User\"]", "css"],
+        ["css=div:nth-child(1) > p > input", "css:finder"],
+        ["xpath=//input[@name='User']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14596293-e60e-422a-89fb-55df44f77760",
+      "comment": "",
+      "command": "type",
+      "target": "name=User",
+      "targets": [
+        ["name=User", "name"],
+        ["css=input[name=\"User\"]", "css"],
+        ["css=div:nth-child(1) > p > input", "css:finder"],
+        ["xpath=//input[@name='User']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Bruno"
+    }, {
+      "id": "3ae8a0b7-b1a5-4466-8926-e73cf3f46dc5",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=input[name=\"Password\"]", "css"],
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/p/input", "xpath:position"]
+      ],
+      "value": "bruno1*"
+    }, {
+      "id": "483ebc47-ace8-4019-b902-a7a3d798b596",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=input[name=\"Password\"]", "css"],
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/p/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cb76c6dc-69bb-45ef-9855-e6f23d79e4b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=LOGIN",
+      "targets": [
+        ["id=LOGIN", "id"],
+        ["linkText=LOGIN", "linkText"],
+        ["css=#LOGIN", "css"],
+        ["css=#LOGIN", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGIN')]", "xpath:link"],
+        ["xpath=//a[@id='LOGIN']", "xpath:attributes"],
+        ["xpath=//a[@href='http://127.0.0.1:1330/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a58aa264-5c0b-45b0-9922-bb53eb9f58c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5b1c5382-4dda-4116-b0db-6df5fdf77939"]
+  }],
+  "urls": ["http://127.0.0.1:1300/"],
+  "plugins": []
+}
