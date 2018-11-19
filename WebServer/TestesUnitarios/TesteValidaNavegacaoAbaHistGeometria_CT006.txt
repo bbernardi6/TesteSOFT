@@ -1,0 +1,2 @@
+Testar o fluxo de navegação na pagina de historia da geometria.
+Por tratar apenas de um teste de fluxo, não havia necessidade de teste unitario.

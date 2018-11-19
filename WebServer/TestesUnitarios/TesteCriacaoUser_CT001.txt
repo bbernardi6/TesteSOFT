@@ -1,0 +1,2 @@
+Quando o usuário criar seu usuário de acesso, o login e senha do mesmo é salvo
+em um arquivo txt no Linux.

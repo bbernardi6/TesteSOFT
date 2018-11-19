@@ -1,0 +1,1 @@
+Valida se o user criado e salvo no arquivo texto no linux efetua o login com sucesso no sistema.
